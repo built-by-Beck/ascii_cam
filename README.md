@@ -31,37 +31,47 @@ Make sure you have the following installed:
   ```bash
   pip install opencv-python numpy pillow
 
-Clone the repository:
+**Clone the repository:**
 
+```bash
 git clone https://github.com/yourusername/ascii-camera.git
+```
 
+```bash
 cd ascii-camera
+```
+- 
+**Run the program:**
 
-Run the program:
-
+```bash
 python ascii_camera.py
+```
 
 Resize or maximize the window to adjust the ASCII art resolution dynamically.
 To exit, close the window or press Ctrl+C.
-Customization
-Character Set: Modify the gscale_custom variable in the code to use your own set of ASCII characters.
-Resolution: Change the default cols and scale values to control the detail and aspect ratio of the ASCII art.
-GUI Appearance: Customize the Tkinter window’s background, font size, or text color.
-Skills Demonstrated
+
+**Skills Demonstrated**
+
 Python Programming: Efficient use of OpenCV, Tkinter, and Numpy libraries.
 Real-Time Processing: Implementation of a smooth, live video-to-ASCII pipeline.
 GUI Development: Responsive design with dynamic resizing and font scaling.
 Performance Optimization: Real-time rendering with minimal computational overhead.
-Why This Project Matters
-This project bridges art and technology, providing a creative way to display live video. It demonstrates:
 
-Advanced knowledge of Python libraries.
-The ability to handle real-time data processing.
-An understanding of graphical user interface design.
-Contributions
+**Why This Project Matters**
+This project bridges art and technology, providing a creative way to display live video. 
+
+
+It demonstrates:
+
+1. Advanced knowledge of Python libraries.
+2. The ability to handle real-time data processing.
+3. An understanding of graphical user interface design.
+
+**Contributions**
 Contributions are welcome! Fork this repository and submit a pull request with your improvements or bug fixes.
 
-License
+
+**License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
