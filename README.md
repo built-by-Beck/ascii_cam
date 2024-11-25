@@ -34,9 +34,11 @@ Make sure you have the following installed:
 Clone the repository:
 
 git clone https://github.com/yourusername/ascii-camera.git
+
 cd ascii-camera
 
 Run the program:
+
 python ascii_camera.py
 
 Resize or maximize the window to adjust the ASCII art resolution dynamically.
