@@ -4,7 +4,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 # Gray scale levels
-gscale1 = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+gscale1 = "$#@)*^($^&#@#%22BECKDAVIDBECK22]**^%$$^(*&*(^%&^%)BUILT_BY_BECK^(*)&(*^%^^*&%%*&^&*)*&"
 gscale2 = "@%#*+=-:. "
 
 def get_average_l(image):
@@ -12,7 +12,7 @@ def get_average_l(image):
     im = np.array(image)
     return np.average(im)
 
-def convert_frame_to_ascii(frame, cols=120, scale=0.55, more_levels=False):
+def convert_frame_to_ascii(frame, cols=120, scale=0.75, more_levels=False):
     """
     Convert a video frame to ASCII art.
     """
